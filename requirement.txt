@@ -1,0 +1,10 @@
+torch==<version>                  # PyTorch for deep learning
+torchvision==<version>            # For image transformations and pre-trained models
+numpy==<version>                  # For numerical operations
+pandas==<version>                 # For data manipulation and analysis
+scikit-learn==<version>           # For machine learning utilities (e.g., SVM, KNN)
+matplotlib==<version>             # For plotting and visualizations
+Pillow==<version>                 # For image processing
+opencv-python==<version>          # For image processing (optional)
+tqdm==<version>                   # For progress bars
+scipy==<version>                  # For scientific computations (optional)
