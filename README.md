@@ -78,7 +78,9 @@ python main.py
 For any queries or collaborations, feel free to reach out!
 
 Aditya Kumar Singh
+
 LinkedIn: https://www.linkedin.com/in/iamadi1709/
+
 Email: adityakumar.singh2020a@vitstudent.ac.in
 
 🎉 Contributing
