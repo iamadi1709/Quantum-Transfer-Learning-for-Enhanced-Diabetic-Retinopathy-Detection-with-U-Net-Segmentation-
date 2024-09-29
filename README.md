@@ -63,7 +63,7 @@ Future work will focus on refining these models further, expanding the dataset f
 
 📦 Installation
 # Clone the repository
-git clone https://github.com/yourusername/quantum-transfer-learning-dr.git
+https://github.com/iamadi1709/Quantum-Transfer-Learning-for-Enhanced-Diabetic-Retinopathy-Detection-with-U-Net-Segmentation-.git
 
 # Navigate to the project directory
 cd quantum-transfer-learning-dr
