@@ -2,6 +2,9 @@
 
 📚 Abstract: Diabetic Retinopathy (DR) is one of the leading causes of blindness, particularly among diabetic patients, as it introduces numerous lesions to the retina. Traditional identification of DR through the analysis of retinal fundus images by ophthalmologists is a time-consuming and costly process. Despite the effectiveness of classical transfer learning models in Computer-Aided Diagnosis for DR detection, they face significant challenges, including high training costs, computational complexity, and resource intensity.
 
+<img width="812" alt="image" src="https://github.com/user-attachments/assets/df5a77fa-3645-4a0d-9315-863550ec9ff1">
+
+
 #This research proposes a Quantum Transfer Learning (QTL) methodology integrated with classical machine learning models for quantitative and qualitative improvements in DR detection. Using the APTOS 2019 Blindness Detection dataset, we leverage pre-trained models such as ResNet-18, ResNet-34, ResNet-50, ResNet-101, and ResNet-152, alongside Inception V3 for feature extraction. Our method employs a Variational Quantum Classifier, achieving an accuracy of 97% with the ResNet-18 model. Furthermore, the U-Net model is used for DR stage segmentation, achieving a testing accuracy of 96.94% on the STARE dataset. To enhance classification results, Support Vector Machine (SVM) and K Nearest Neighbour (KNN) models were also utilized, achieving accuracies above 96.62%. This quantum-classical approach demonstrates that QTL enhances DR detection, providing faster and more accurate diagnoses for diabetic retinopathy patients.
 
 👁️ What is Diabetic Retinopathy?
@@ -17,6 +20,9 @@ The objective of this project is to perform image classification on fundus photo
 4 - Proliferative
 
 🛠️ Proposed Methodology
+
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/84b7782c-de96-43d8-9642-93c68ff08666">
+
 We utilize the ResNet model for classifying images, built using PyTorch. The ResNet architecture consists of 152 layers, addressing the vanishing gradient problem through skip connections. This allows us to train ultra-deep networks effectively while maintaining high accuracy on large datasets.
 
 In addition to ResNet, the U-Net model is employed for segmenting retinal lesions associated with diabetic retinopathy. U-Net is a convolutional neural network architecture designed specifically for image segmentation tasks. It features an encoder-decoder structure with skip connections that help retain spatial information lost during down-sampling. This model excels in capturing fine details, making it ideal for detecting and localizing lesions in fundus images.
@@ -24,6 +30,9 @@ In addition to ResNet, the U-Net model is employed for segmenting retinal lesion
 The dataset comprises 3662 training images and approximately 1900 testing images. Additionally, a GUI developed using Tkinter enables users to upload fundus retinal images and receive predicted labels as output.
 
 🏗️ Architecture
+
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/38b65c7c-0dc3-4b81-a3b9-a78c9f06e1d8">
+
 The ResNet model employs skip connections that facilitate the training of deep networks without encountering vanishing gradient issues. Instead of learning the underlying mapping 𝐻(𝑥), the network fits the residual mapping 𝐹(𝑥). This architecture enhances the model's performance significantly.
 
 The U-Net model consists of an encoder path for down-sampling and a decoder path for up-sampling, allowing it to generate high-resolution segmentations from low-resolution inputs. The skip connections between the encoder and decoder paths retain critical features, enabling precise localization of retinal lesions.
@@ -44,6 +53,13 @@ Screening Programs: Automating classification can facilitate large-scale screeni
 Patient Triage: Automated systems can prioritize patients based on disease severity, ensuring critical cases are seen promptly.
 Research and Clinical Trials: Analyzing large datasets of retinal images can aid in identifying patterns and trends in disease progression.
 Clinical Decision Support: AI-based systems can provide ophthalmologists with additional insights for diagnosis and treatment decisions.
+
+📌 Conclusion
+The integration of Quantum Transfer Learning with classical machine learning models marks a significant advancement in the detection and classification of Diabetic Retinopathy. By leveraging the strengths of models like ResNet and U-Net, this project demonstrates enhanced accuracy and efficiency in diagnosing DR from retinal fundus images.
+
+The results indicate that our proposed methodology not only improves classification performance—achieving up to 97% accuracy—but also streamlines the process, making it more accessible for healthcare providers. This dual approach of employing Quantum Transfer Learning alongside traditional techniques promises a future where early detection and intervention for diabetic retinopathy can be achieved at a larger scale, ultimately aiming to reduce the burden of vision loss among diabetic patients.
+
+Future work will focus on refining these models further, expanding the dataset for training, and exploring additional applications of Quantum Transfer Learning in other medical imaging fields.
 
 📦 Installation
 # Clone the repository
