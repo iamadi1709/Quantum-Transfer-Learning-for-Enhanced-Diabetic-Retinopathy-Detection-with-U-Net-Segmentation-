@@ -77,7 +77,7 @@ python main.py
 📧 Contact
 For any queries or collaborations, feel free to reach out!
 
-Aditya Kumar Singh
+Name of Author: Aditya Kumar Singh
 
 LinkedIn: https://www.linkedin.com/in/iamadi1709/
 
