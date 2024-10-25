@@ -76,6 +76,8 @@ python main.py
 📧 Contact
 For any queries or collaborations, feel free to reach out!
 
+Faculty Guide and Contributor: https://chennai.vit.ac.in/member/dr-suchetha-m/
+
 Name of Author: Aditya Kumar Singh
 
 LinkedIn: https://www.linkedin.com/in/iamadi1709/
